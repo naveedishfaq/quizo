@@ -5,9 +5,9 @@ date_default_timezone_set('UTC');
 header('Content-Type: text/html; charset=utf-8');
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'tzynohab_quizo');
-define('DB_USER', 'tzynohab_quizo');
-define('DB_PASS', 'tzync@0306A');
+define('DB_NAME', 'tz00b_papa');
+define('DB_USER', 't000ohab_papa');
+define('DB_PASS', 'tasdasc@papa');
 
 try {
     $pdo = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME.";charset=utf8mb4", DB_USER, DB_PASS);
